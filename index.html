@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Three js render</title>
+</head>
+<body>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+    <script src = "OrbitControls.js"></script>  
+    <script src = "https://cdn.jsdelivr.net/npm/stl-loader@1.0.0/STLLoader.min.js"></script>
+    <div id="model" style="width: 100vw; height: 100vh"> </div>
+    <script type="text/javascript">
+        window.onload = function() {
+            STLViewer("Shoulder_Bone.stl", "model")
+        }
+        </script>
+<script src = "script.js"></script>
+</body>
+
+</html>
